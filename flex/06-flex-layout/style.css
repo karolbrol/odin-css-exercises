@@ -25,3 +25,60 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  align-self: center;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.content {
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #ccc;
+}
